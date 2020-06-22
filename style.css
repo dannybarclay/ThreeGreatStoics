@@ -11,6 +11,13 @@
     background-color: rgba(148, 138, 138, 0.801);
   }
 
+  .bg {
+    background-color: rgb(241, 226, 226);
+    margin: auto;
+    width: 80%;
+    border-radius: 1em;
+  }
+
 .navigation {
   z-index: 10;
   margin-bottom: 5px;
@@ -100,7 +107,7 @@ a:link {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(235, 219, 219);
+  color: rgb(0, 0, 0);
   border-bottom: solid 2px dimgrey;
 }
 
@@ -114,7 +121,7 @@ a:link {
   
 }
 
-.marcus-img {
+.stoic-img {
   max-height: 660px;
   max-width: 320px;
   border-radius: 5%;
@@ -154,5 +161,12 @@ a:link {
   width: 40%;
 }
 
+.bubble-boxes {
+  flex-direction: column;
+  align-items: center;
+}
 
+.bubble-box {
+  width: 90%;
+}
 }
