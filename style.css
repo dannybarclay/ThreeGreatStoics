@@ -111,6 +111,12 @@ a:link {
   border-bottom: solid 2px dimgrey;
 }
 
+.div-for-stoic-name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .stoic {
   margin-top: 15px;
   display: flex;
