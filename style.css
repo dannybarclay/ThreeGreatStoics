@@ -178,8 +178,7 @@ a:link {
 @media only screen and (max-width: 768px) {
 
   html, 
-  body,
-  .body {
+  body,{
     overflow-x: hidden;
     position: fixed;
   }
