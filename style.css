@@ -180,6 +180,15 @@ a:link {
   html, 
   body, {
     overflow-x: hidden!important;
+    height: 100%;
+    width: 100%;
+    position: relative;
+  }
+
+  #wrapper {
+    position: absolute; 
+    width: 100%; 
+    overflow-x: hidden
   }
 
 .books {
