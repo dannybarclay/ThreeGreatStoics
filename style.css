@@ -152,13 +152,45 @@ a:link {
   margin: 0 5px 0 5px;
   box-shadow: 10px 10px 10px dimgrey;
 }
+
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 3px;
+  background-color: rgb(199, 172, 172);
+
+}
+
+
+
 /*Media Queries*/
 
 @media only screen and (max-width: 768px) {
 
+body {
+  overflow-x: hidden;
+}
+
 .nav-links {
-  justify-content: space between;
-  width: 40%;
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5d4954;
+  transform: translateX(100%);
+  transition: transform 0.5s ease-in;
+}
+
+
+.nav-links li {
+  opacity: 0;
 }
 
 .bubble-boxes {
@@ -169,4 +201,35 @@ a:link {
 .bubble-box {
   width: 90%;
 }
+
+.burger {
+  display: block;
+  cursor: pointer;
+}
+
+.nav-active { 
+  transform: translateX(0%);
+}
+
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  } to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+
+}
+
+
+
+@media only screen and (max-width: 1000px) {
+  .nav-links {
+    display: flex;
+    justify-content: space-evenly;
+    width: 50%;
+    list-style: none;
+
 }
