@@ -242,6 +242,27 @@ a:link {
   }
 }
 
+.stoic-img {
+  max-height: 360px;
+  max-width: 200px;
+  border-radius: 5%;
+  box-shadow: 10px 10px 10px dimgrey;
+}
+
+.book {
+  height: 180px;
+  width: 135px;
+  margin: 0 5px 0 5px;
+  box-shadow: 10px 10px 10px dimgrey;
+}
+
+.bg {
+  background-color: rgb(241, 226, 226);
+  margin: auto;
+  width: 95%;
+  border-radius: 1em;
+}
+
 }
 
 
