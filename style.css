@@ -168,9 +168,46 @@ a:link {
   height: 3px;
   margin: 3px;
   background-color: rgb(199, 172, 172);
-
 }
 
+form {
+  margin-top: 25px;
+  padding: 15px;
+  text-align: center;
+  width: 75%;
+  background-color: #283958;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: rgb(235, 219, 219);
+}
+
+input {
+  width: 65%;
+  border-radius: 5px;
+  height: 40px;
+  font-size: 20px;
+}
+
+label {
+  float: left;
+  margin-left: 18%;
+}
+
+#name, 
+#email, {
+  font-size: 20px;
+  width: 80%;
+  
+}
+
+button {
+  float: left;
+  margin-left: 17.75%;
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
 
 
 /*Media Queries*/

@@ -3,7 +3,7 @@ const navSlide = () => {
     const nav = document.querySelector(".nav-links");
     const navA = document.querySelector(".nav-links a");
     const navLinks = document.querySelectorAll(".nav-links li");
-
+ 
     //Toggle the navigation in!// 
     burger.addEventListener('click',()=>{
         nav.classList.toggle('nav-active');
