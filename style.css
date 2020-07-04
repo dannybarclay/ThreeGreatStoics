@@ -144,6 +144,32 @@ a:link {
   border-radius: 5px;
   color: rgb(235, 219, 219);
 }
+
+.stoic-description2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+  padding: 15px;
+  text-align: center;
+  width: 75%;
+  background-color: #283958;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  color: rgb(235, 219, 219);
+}
+
+.buttonClick1, 
+.buttonClick2, 
+.buttonClick3 {
+  margin-top: 10px;
+  font-family: sans-serif;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
 .books {
   
   display: flex;
@@ -174,7 +200,7 @@ form {
   margin-top: 25px;
   padding: 15px;
   text-align: center;
-  width: 75%;
+  width: 55%;
   background-color: #283958;
   margin-bottom: 20px;
   border-radius: 5px;
@@ -182,7 +208,7 @@ form {
 }
 
 input {
-  width: 65%;
+  width: 80%;
   border-radius: 5px;
   height: 40px;
   font-size: 20px;
@@ -190,7 +216,7 @@ input {
 
 label {
   float: left;
-  margin-left: 18%;
+  margin-left: 10%;
 }
 
 #name, 
@@ -200,9 +226,9 @@ label {
   
 }
 
-button {
+#okButton {
   float: left;
-  margin-left: 17.75%;
+  margin-left: 10%;
   font-family: sans-serif;
   padding: 5px;
   border-radius: 5px;
@@ -309,8 +335,13 @@ button {
 
 }
 
+form {
+  width: 80%;
+}
 
-
+input {
+  width: 80%;
+}
 
 }
 
