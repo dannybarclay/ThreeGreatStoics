@@ -1,4 +1,5 @@
-const navSlide = () => {
+    //Variables//
+    const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
     const navA = document.querySelector(".nav-links a");

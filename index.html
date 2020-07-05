@@ -13,12 +13,14 @@
 		<div class="logo">
 			<h4><a class="name" href="#">Three Great Stoics</a></h4>
 		</div>
+		<!-- Navigation links -->
 			<ul class="nav-links">
 				<li><a class="name" href="#marcus">Marcus</a></li>
 				<li><a class="name" href="#seneca">Seneca</a></li>
 				<li><a class="name" href="#epictetus">Epictetus</a></li>
 				<li><a class="name" href="#signUpField">Contact</a></li>
 			</ul>	
+			<!--Burger Menu is hidden until mobile view-->
 			<div class="burger">
 				<div class="line1"></div>
 				<div class="line2"></div>
@@ -26,9 +28,11 @@
 			</div>
 		</nav>
 		<div>
+			<!--Header Image-->
 			<img class="header-image" src="img/TGS_header_image.png">
 		</div>
 <div class="bg">
+			<!--Two small description boxes-->
 		<section class="bubble-boxes">
 			<div class="bubble-box">
 				<h2>What is Stoicism?</h2><br><br>
@@ -44,6 +48,7 @@
 					various other schools of philosophy.</p>
 			</div>
 		</section>
+		<!--First Stoic. Contains an image, a description, books, and a random quote generator...-->
 		<div class="div-for-stoic-name">
 		<section class="stoic-name" id="marcus">Marcus Aurelius</section></div>
 		<div class="stoic">
@@ -69,7 +74,7 @@
 					<div><img class="book" src="img/TGS_marcus_book1.png" alt="Meditations"></div>
 					<div><img class="book" src="img/TGS_marcus_book2.png" alt="How To Think Like An Emperor"></div>
 				</div>
-
+			<!--Second Stoic. Contains an image, a description, books, and a random quote generator...-->
 				<section class="stoic-name" id="seneca">Seneca</section>
 				<div class="stoic">
 					<img class="stoic-img" src="img/TGS_seneca_image.png" alt="A drawing of Seneca...">
@@ -97,7 +102,9 @@
 							<div><img class="book" src="img/TGS_seneca_book2.png" alt="How To Think Like An Emperor"></div>
 						
 						
-						</div><section class="stoic-name" id="epictetus">Epictetus</section>
+						</div>
+						<!--Third Stoic. Contains an image, a description, books, and a random quote generator...-->
+						<section class="stoic-name" id="epictetus">Epictetus</section>
 						<div class="stoic">
 							<img class="stoic-img" src="img/TGS_epictetus_image.png" alt="A statue of Epictetus...">
 							<p class="stoic-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
@@ -112,9 +119,9 @@
 
 								<div class="stoic-description"> 
 									<div id="epictetus-quotes">
-										
-									</div>
 
+									</div>
+								
 								<button class="buttonClick1" onclick="newQuoteEpictetus()">New Quote</button>
 								</div>
 				
@@ -124,7 +131,7 @@
 									<div><img class="book" src="img/TGS_epictetus_book1.png" alt="Meditations"></div>
 									<div><img class="book" src="img/TGS_epictetus_book2.png" alt="How To Think Like An Emperor"></div>
 								</div>
-
+					<!--Contact form. Requires input validation on email field...-->
 				<form action="index.html" method="post" id="signUpField">
 					<br><h1>Want More Information?</h1><br>
 					<label name="first_name">First Name:</label><br>
@@ -142,6 +149,7 @@
 
 	</div>
 </div>
+	<!--Linked JavaScript files..-->
 	<script src="app.js"></script>
 	<script src="email-validation.js"></script>
 	<script src="quotes.js"></script>

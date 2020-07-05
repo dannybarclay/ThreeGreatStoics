@@ -1,3 +1,4 @@
+/**Universal styling**/
 @import url('https://fonts.googleapis.com/css2?family=Playball&display=swap');
 
 * {
@@ -18,6 +19,7 @@
     border-radius: 1em;
   }
 
+  /**Navigation and Header Image**/
 .navigation {
   z-index: 10;
   margin-bottom: 5px;
@@ -68,12 +70,25 @@ a:link {
   color: rgb(199, 172, 172);
 }
 
+
 .header-image {
   width:100%;
   height: 50%;
   border-bottom: solid 1.5px rgba(138, 127, 127, 0.801);
 }
 
+.burger {
+  display: none;
+}
+
+.burger div {
+  width: 25px;
+  height: 3px;
+  margin: 3px;
+  background-color: rgb(199, 172, 172);
+}
+
+/**Starting Body Content at Top of Page**/
 .bubble-boxes {
   display: flex;
   justify-content: space-evenly;
@@ -100,6 +115,7 @@ a:link {
   
 }
 
+/**Main Content about the Stoics**/
 .stoic-name {
   margin-top: 10px;
   font-family: 'Playball', cursive;
@@ -160,9 +176,7 @@ a:link {
   color: rgb(235, 219, 219);
 }
 
-.buttonClick1, 
-.buttonClick2, 
-.buttonClick3 {
+.buttonClick1 {
   margin-top: 10px;
   font-family: sans-serif;
   padding: 5px;
@@ -170,8 +184,7 @@ a:link {
   font-size: 15px;
 }
 
-.books {
-  
+.books { 
   display: flex;
   justify-content: center;
   width: 100%;
@@ -185,17 +198,8 @@ a:link {
   box-shadow: 10px 10px 10px dimgrey;
 }
 
-.burger {
-  display: none;
-}
 
-.burger div {
-  width: 25px;
-  height: 3px;
-  margin: 3px;
-  background-color: rgb(199, 172, 172);
-}
-
+/**Contact Form Styling**/
 form {
   margin-top: 25px;
   padding: 15px;
