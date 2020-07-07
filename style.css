@@ -276,6 +276,18 @@ label {
   transition: transform 0.5s ease-in;
 }
 
+.nav-links2 {
+  position: absolute;
+  right: 0px;
+  height: 92vh;
+  top: 8vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #5d4954;
+  transform: translateX(0%);
+  transition: transform 0.5s ease-out;
+}
 
 .nav-links li {
   opacity: 0;
